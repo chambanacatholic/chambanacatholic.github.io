@@ -1,0 +1,91 @@
+.goal-card-container {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.goal-card-container1 {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-radius4);
+  justify-content: center;
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+}
+.goal-card-image {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.goal-card-text {
+  top: 0px;
+  left: 0px;
+  color: var(--dl-color-gray-white);
+  right: 0px;
+  width: auto;
+  bottom: 0px;
+  padding: var(--dl-space-space-unit);
+  position: absolute;
+  font-size: 14px;
+  box-shadow: 0px 0px 10px 5px #b7b58c;
+  font-style: normal;
+  margin-top: 125px;
+  text-align: center;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: rgba(4, 92, 92, 0.85);
+}
+.goal-card-container2 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+}
+.goal-card-text1 {
+  color: var(--dl-color-primary-100);
+  font-size: 12px;
+  max-width: 250px;
+  align-self: center;
+  text-align: justify;
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
+.goal-card-text2 {
+  color: var(--dl-color-primary-100);
+  font-size: 12px;
+  max-width: 250px;
+  align-self: center;
+  font-style: italic;
+  text-align: justify;
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
+
+
+
+
+@media(max-width: 767px) {
+  .goal-card-container {
+    width: 200px;
+  }
+}
+@media(max-width: 479px) {
+  .goal-card-container {
+    width: 300px;
+  }
+}

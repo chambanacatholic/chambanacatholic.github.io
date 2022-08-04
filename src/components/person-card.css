@@ -1,0 +1,44 @@
+.person-card-container {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.person-card-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-color: var(--dl-color-primary-100);
+  border-width: 4px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.person-card-container1 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+}
+.person-card-text {
+  color: var(--dl-color-primary-700);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .person-card-container {
+    width: 200px;
+  }
+}
+@media(max-width: 479px) {
+  .person-card-container {
+    width: 300px;
+  }
+}
