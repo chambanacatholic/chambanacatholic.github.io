@@ -87,16 +87,6 @@
   font-weight: 700;
 }
 .navbar-navlink3 {
-  color: var(--dl-color-primary-100);
-  transition: 0.3s;
-  margin-right: var(--dl-space-space-doubleunit);
-  text-decoration: none;
-}
-.navbar-navlink3:hover {
-  color: var(--dl-color-primary-700);
-  font-weight: 700;
-}
-.navbar-navlink4 {
   display: contents;
 }
 .navbar-component {
